@@ -1,0 +1,70 @@
+#socialCounterWidget {
+  min-width: 210px;
+}
+
+a.socialCounterBox {
+    display:block;
+    width:100%;
+    height:60px;
+    position:relative;
+    border:none;
+    margin-bottom:8px;
+    cursor:pointer;
+    background-color:#fafafa;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:5px;
+    -moz-box-shadow: 0 0 8px 2px #ddd;
+    -webkit-box-shadow: 0 0 8px 2px #ddd;
+    text-decoration: none;
+}
+
+a.socialCounterBox:hover {
+    color: #008DE6;
+    text-decoration: none;
+    outline: none;
+}
+
+#socialCounterWidget span {
+display:block;
+position:absolute;
+color:#6e6e6e;
+text-shadow:1px 1px 0 #FFF;
+padding:3px;
+}
+
+#socialCounterWidget .icon {
+width:55px;
+height:45px;
+left:10px;
+top:10px;
+}
+
+#socialCounterWidget .title {
+font-size:12px;
+top:8px;
+left:70px;
+}
+
+#socialCounterWidget .count {
+font:bold 18px/28px 'Myriad Pro',Tahoma,Arialm,sans-serif;
+left:70px;
+top:23px;
+}
+
+#sc_rss .icon {
+background:url(../img/rss.png) no-repeat;
+}
+
+#sc_twitter .icon {
+background:url(../img/twitter.png) no-repeat;
+}
+
+#sc_facebook .icon {
+background:url(../img/facebook.png) no-repeat;
+}
+
+a.socialCounterBox:hover {
+background-color:#fdfdfd;
+}
+
